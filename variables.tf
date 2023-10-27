@@ -4,8 +4,8 @@ variable "environment" {
 # variable "region" {
 # }
 
-# variable "owner" {
-# }
+variable "owner" {
+}
 
 # variable "aws_account_id" {
 # }
@@ -14,8 +14,8 @@ variable "tags" {
   type = map(string)
 }
 
-# variable "domain_name" {
-# }
+variable "domain_name" {
+}
 
 # variable "domain_name_private" {
 # }
@@ -39,6 +39,12 @@ variable "public_second_subnet_cird_block" {
 }
 
 variable "public_third_subnet_cird_block" {
+}
+
+variable "acm_certificate_arn" {
+}
+
+variable "rds_instance_class" {
 }
 
 # variable "eks_node_group_desired_size_euw1a" {}
